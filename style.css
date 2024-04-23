@@ -5,6 +5,7 @@ body {
   color: #003049;
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
   padding: 40px;
+  background-color: #eae2b7;
 }
 
 /* Set the font family for any h1, h2, or h3 heading */
@@ -12,7 +13,7 @@ h1,
 h2,
 h3 {
   font-family: "Playfair Display", Times, serif;
-  text-align: center
+  text-align: center;
 }
 
 article {
@@ -45,17 +46,23 @@ hr {
 }
 
 /* Add your solution below */
+h2 {
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 18px;
+}
 
 .image-circle {
   border-radius: 50%;
   border: 2px solid #003049;
 }
 
-/* Header styling */
 nav ul {
   list-style-type: none;
   padding: 0;
-  text-align: center
+  text-align: center;
 }
 
 nav ul li {
@@ -63,43 +70,12 @@ nav ul li {
   margin: 0 10px;
 }
 
-nav ul li a {
-  color: red;
-  text-decoration: none;
-}
-
-/* Styling for the About section */
-.about-heading {
-  font-size: 2em; /* Larger font size */
-}
-
-.about-subheading {
-  font-size: 1.5em; /* Smaller font size */
-}
-
-/* Styling for the Portfolio section */
-
-h2#portfolio-heading {
-  font-size: 24px;
-}
-
-article h3 {
-  font-size: 18px;
-}
-
-/* Styling for the Contact section */
-h2#contact-heading {
-  text-align: center;
-}
-
-body {
-  background-color: #eae2b7;
-}
-
+/* Styling for the Header and Footer */
 header, footer {
   text-align: center;
 }
 
+/* Styling for links */
 a {
   color: #d62828;
 }
